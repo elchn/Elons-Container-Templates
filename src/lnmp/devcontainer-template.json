@@ -1,0 +1,31 @@
+{
+    "id":"lnmp",
+    "version":"1.0.0",
+    "name": "lnmp-ubntu",
+    "description": "PHP development enviorment on ubuntu 22.04 with php-fpm, nginx, mariadb and phpmyadmin installed",
+    "options":{
+        "phpVersion":{
+            "type":"string",
+            "description":"php version",
+            "proposals":[
+                "8.2",
+                "8.1"
+            ],
+            "default":"8.2"
+        },
+        "phpMyadminVersion":{
+            "type":"string",
+            "description":"phpmyadmin version",
+            "proposals":[
+                "5.2.1"
+            ],
+            "default":"5.2.1"
+        }
+    },
+    "platforms":"anywhere docker is available",
+    "publisher":"elchn",
+    "keywords":[
+        "lnmp",
+        "php"
+    ]
+}

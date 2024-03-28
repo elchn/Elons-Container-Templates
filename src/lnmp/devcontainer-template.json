@@ -1,7 +1,7 @@
 {
     "id":"lnmp",
     "version":"1.0.0",
-    "name": "lnmp-ubntu",
+    "name": "lnmp-ubuntu",
     "description": "PHP development enviorment on ubuntu 22.04 with php-fpm, nginx, mariadb and phpmyadmin installed",
     "options":{
         "phpVersion":{

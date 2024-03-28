@@ -2,14 +2,14 @@
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
-      "phpVersion": "${localEnv:php_version:8.2}",
+      "phpVersion": "${phpVersion}",
       "phpMyadmin": "${localEnv:phpmyadmin:5.2.1}"
     }
   },
   "containerUser": "root",
   "remoteUser": "root",
   "containerEnv": {
-    "PHP_VERSION": "${localEnv:php_version:8.2}",
+    "PHP_VERSION": "${phpVersion}",
     "PHPMYADMIN": "${localEnv:phpmyadmin:5.2.1}"
   },
   "postAttachCommand": {
